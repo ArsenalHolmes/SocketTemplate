@@ -32,6 +32,7 @@ namespace ServerTemplate
                 if (isHeart)
                 {
                     Thread t = new Thread(HeartThread);
+                    t.IsBackground = true;
                     t.Start();
                 }
             }

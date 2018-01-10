@@ -1,4 +1,6 @@
-﻿using SocketToolClass;
+﻿
+
+using ClientTemplate;
 
 public class ToolClass
 {

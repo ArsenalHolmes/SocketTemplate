@@ -59,7 +59,7 @@ namespace ServerTemplate
         {
             //序列化
             if (isKill) return false;
-            byte[] arr = SocketToolClass.SerializeTool.GetArrByObj(obj);
+            byte[] arr =SerializeTool.GetArrByObj(obj);
             return SendMsg(arr);
         }
 
@@ -69,7 +69,7 @@ namespace ServerTemplate
             //根据数组加长度
             try
             {
-                byte[] newArr = SocketToolClass.EncodingTool.EncodePacket(msg);
+                byte[] newArr = EncodingTool.EncodePacket(msg);
                 client.BeginSend(newArr, 0, newArr.Length, SocketFlags.None, SendAsyn, client);
                 return true;
             }

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Text;
 using System.Net.Sockets;
 using System.Net;
-using SocketToolClass;
 using System.Threading;
 using System.Runtime.InteropServices;
 
@@ -28,6 +27,7 @@ namespace ClientTemplate
 
         public abstract void PrintMessage(string error);
 
+        protected Thread t;
         public Socket client;
         public BaseClinet()
         {
@@ -40,7 +40,8 @@ namespace ClientTemplate
                 client.BeginConnect(new IPEndPoint(IPAddress.Parse(ip), port), ConnectAsyn, client);
                 if (isHeart)
                 {
-                    Thread t = new Thread(HeartThread);
+                    t = new Thread(HeartThread);
+                    t.IsBackground = true;
                     t.Start();
                 }
             }
@@ -160,6 +161,10 @@ namespace ClientTemplate
                     ClientClose();
                 }
             }
+        }
+        ~BaseClinet()
+        {
+            t.Abort();
         }
     }
 }

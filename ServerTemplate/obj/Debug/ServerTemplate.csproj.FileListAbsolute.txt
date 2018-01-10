@@ -3,6 +3,3 @@ C:\Users\admin\source\repos\ServerTemplate\ServerTemplate\bin\Debug\ServerTempla
 C:\Users\admin\source\repos\ServerTemplate\ServerTemplate\bin\Debug\ServerTemplate.pdb
 C:\Users\admin\source\repos\ServerTemplate\ServerTemplate\obj\Debug\ServerTemplate.dll
 C:\Users\admin\source\repos\ServerTemplate\ServerTemplate\obj\Debug\ServerTemplate.pdb
-C:\Users\admin\source\repos\ServerTemplate\ServerTemplate\bin\Debug\SocketToolClass.dll
-C:\Users\admin\source\repos\ServerTemplate\ServerTemplate\bin\Debug\SocketToolClass.pdb
-C:\Users\admin\source\repos\ServerTemplate\ServerTemplate\obj\Debug\ServerTemplate.csprojResolveAssemblyReference.cache

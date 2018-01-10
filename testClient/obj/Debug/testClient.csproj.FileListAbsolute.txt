@@ -2,9 +2,7 @@ C:\Users\admin\source\repos\ServerTemplate\testClient\bin\Debug\testClient.exe.c
 C:\Users\admin\source\repos\ServerTemplate\testClient\bin\Debug\testClient.exe
 C:\Users\admin\source\repos\ServerTemplate\testClient\bin\Debug\testClient.pdb
 C:\Users\admin\source\repos\ServerTemplate\testClient\bin\Debug\ClientTemplate.dll
-C:\Users\admin\source\repos\ServerTemplate\testClient\bin\Debug\SocketToolClass.dll
 C:\Users\admin\source\repos\ServerTemplate\testClient\bin\Debug\ClientTemplate.pdb
-C:\Users\admin\source\repos\ServerTemplate\testClient\bin\Debug\SocketToolClass.pdb
 C:\Users\admin\source\repos\ServerTemplate\testClient\obj\Debug\testClient.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\ServerTemplate\testClient\obj\Debug\testClient.exe
 C:\Users\admin\source\repos\ServerTemplate\testClient\obj\Debug\testClient.pdb

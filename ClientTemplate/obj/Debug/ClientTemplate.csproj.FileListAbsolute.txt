@@ -1,8 +1,5 @@
 C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\bin\Debug\ClientTemplate.dll
 C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\bin\Debug\ClientTemplate.pdb
-C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\bin\Debug\SocketToolClass.dll
-C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\bin\Debug\SocketToolClass.pdb
 C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\obj\Debug\ClientTemplate.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\obj\Debug\ClientTemplate.dll
 C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\obj\Debug\ClientTemplate.pdb
-C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\obj\Debug\ClientTemplate.csprojResolveAssemblyReference.cache
