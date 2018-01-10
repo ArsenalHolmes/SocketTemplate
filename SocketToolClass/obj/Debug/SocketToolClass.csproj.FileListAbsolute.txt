@@ -1,0 +1,5 @@
+C:\Users\admin\source\repos\ServerTemplate\SocketToolClass\bin\Debug\SocketToolClass.dll
+C:\Users\admin\source\repos\ServerTemplate\SocketToolClass\bin\Debug\SocketToolClass.pdb
+C:\Users\admin\source\repos\ServerTemplate\SocketToolClass\obj\Debug\SocketToolClass.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\ServerTemplate\SocketToolClass\obj\Debug\SocketToolClass.dll
+C:\Users\admin\source\repos\ServerTemplate\SocketToolClass\obj\Debug\SocketToolClass.pdb
