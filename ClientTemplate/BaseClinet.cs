@@ -14,7 +14,7 @@ namespace ClientTemplate
         public virtual string ip { get { return "127.0.0.1"; } }
         public virtual int port { get { return 54321; } }
         public virtual bool isHeart { get { return true; } }
-        public virtual int HeartTime { get { return 5; } }
+        public virtual int HeartTime { get { return 5000; } }
 
         byte[] msgArr = new byte[1024];
         bool isKill = false;

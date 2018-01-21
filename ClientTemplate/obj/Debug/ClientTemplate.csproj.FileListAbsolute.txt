@@ -3,3 +3,8 @@ C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\bin\Debug\ClientTempla
 C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\obj\Debug\ClientTemplate.csproj.CoreCompileInputs.cache
 C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\obj\Debug\ClientTemplate.dll
 C:\Users\admin\source\repos\ServerTemplate\ClientTemplate\obj\Debug\ClientTemplate.pdb
+F:\Project\SocketTemplate\ClientTemplate\bin\Debug\ClientTemplate.dll
+F:\Project\SocketTemplate\ClientTemplate\bin\Debug\ClientTemplate.pdb
+F:\Project\SocketTemplate\ClientTemplate\obj\Debug\ClientTemplate.csproj.CoreCompileInputs.cache
+F:\Project\SocketTemplate\ClientTemplate\obj\Debug\ClientTemplate.dll
+F:\Project\SocketTemplate\ClientTemplate\obj\Debug\ClientTemplate.pdb

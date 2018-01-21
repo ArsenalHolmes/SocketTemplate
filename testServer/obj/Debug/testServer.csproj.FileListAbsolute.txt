@@ -7,3 +7,12 @@ C:\Users\admin\source\repos\ServerTemplate\testServer\obj\Debug\testServer.cspro
 C:\Users\admin\source\repos\ServerTemplate\testServer\obj\Debug\testServer.exe
 C:\Users\admin\source\repos\ServerTemplate\testServer\obj\Debug\testServer.pdb
 C:\Users\admin\source\repos\ServerTemplate\testServer\obj\Debug\testServer.csprojResolveAssemblyReference.cache
+F:\Project\SocketTemplate\testServer\bin\Debug\testServer.exe.config
+F:\Project\SocketTemplate\testServer\bin\Debug\testServer.exe
+F:\Project\SocketTemplate\testServer\bin\Debug\testServer.pdb
+F:\Project\SocketTemplate\testServer\bin\Debug\ServerTemplate.dll
+F:\Project\SocketTemplate\testServer\bin\Debug\ServerTemplate.pdb
+F:\Project\SocketTemplate\testServer\obj\Debug\testServer.csprojResolveAssemblyReference.cache
+F:\Project\SocketTemplate\testServer\obj\Debug\testServer.csproj.CoreCompileInputs.cache
+F:\Project\SocketTemplate\testServer\obj\Debug\testServer.exe
+F:\Project\SocketTemplate\testServer\obj\Debug\testServer.pdb

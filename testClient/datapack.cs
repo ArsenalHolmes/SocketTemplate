@@ -12,6 +12,7 @@ namespace testClient
         public override void ProcessData(byte[] msgArr)
         {
             string str = ToolClass.GetObjByArr<string>(msgArr);
+            Console.WriteLine(str);
         }
     }
 }

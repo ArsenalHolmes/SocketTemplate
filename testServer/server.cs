@@ -10,7 +10,7 @@ namespace testServer
 {
     class server : ServerTemplate.BaseServer
     {
-        public override bool isHeart => false;
+        public override bool isHeart => true;
         public override BaseClient ClientConnect(Socket s)
         {
             return new Client(s);

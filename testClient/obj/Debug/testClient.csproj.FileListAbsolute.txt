@@ -7,3 +7,11 @@ C:\Users\admin\source\repos\ServerTemplate\testClient\obj\Debug\testClient.cspro
 C:\Users\admin\source\repos\ServerTemplate\testClient\obj\Debug\testClient.exe
 C:\Users\admin\source\repos\ServerTemplate\testClient\obj\Debug\testClient.pdb
 C:\Users\admin\source\repos\ServerTemplate\testClient\obj\Debug\testClient.csprojResolveAssemblyReference.cache
+F:\Project\SocketTemplate\testClient\bin\Debug\testClient.exe.config
+F:\Project\SocketTemplate\testClient\bin\Debug\testClient.exe
+F:\Project\SocketTemplate\testClient\bin\Debug\testClient.pdb
+F:\Project\SocketTemplate\testClient\bin\Debug\ClientTemplate.dll
+F:\Project\SocketTemplate\testClient\bin\Debug\ClientTemplate.pdb
+F:\Project\SocketTemplate\testClient\obj\Debug\testClient.csproj.CoreCompileInputs.cache
+F:\Project\SocketTemplate\testClient\obj\Debug\testClient.exe
+F:\Project\SocketTemplate\testClient\obj\Debug\testClient.pdb

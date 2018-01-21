@@ -14,7 +14,7 @@ namespace ServerTemplate
         public virtual int maxCount { get { return 5; } }
 
         public virtual bool isHeart { get { return true; } }
-        public virtual int HeartTime { get { return 5; } }
+        public virtual int HeartTime { get { return 5000; } }
 
         public abstract void PrintMessage(string error);
 
@@ -70,6 +70,7 @@ namespace ServerTemplate
             while (true)
             {
                 Thread.Sleep(HeartTime);
+                Console.WriteLine("发送心跳"+HeartTime);
                 List<BaseClient> temp = new List<BaseClient>();
                 foreach (var item in clientList)
                 {
