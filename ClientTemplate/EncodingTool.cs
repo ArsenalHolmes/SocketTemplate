@@ -9,6 +9,11 @@ namespace ClientTemplate
 {
     class EncodingTool
     {
+        /// <summary>
+        /// 给字节数组前4位添加上数组长度
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <returns></returns>
         public static byte[] EncodePacket(byte[] arr)
         {
             using (MemoryStream ms = new MemoryStream())
@@ -22,6 +27,11 @@ namespace ClientTemplate
             }
         }
 
+        /// <summary>
+        /// 从列表中。根据前4位长度。得到一个完成的字节数组
+        /// </summary>
+        /// <param name="list"></param>
+        /// <returns></returns>
         public static byte[] DecodePacket(ref List<byte> list)
         {
             if (list.Count < 4) return null;

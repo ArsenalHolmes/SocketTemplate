@@ -1,0 +1,7 @@
+F:\Project\SocketTemplate\TestSer\bin\Debug\TestSer.exe.config
+F:\Project\SocketTemplate\TestSer\bin\Debug\TestSer.exe
+F:\Project\SocketTemplate\TestSer\bin\Debug\TestSer.pdb
+F:\Project\SocketTemplate\TestSer\obj\Debug\TestSer.csprojResolveAssemblyReference.cache
+F:\Project\SocketTemplate\TestSer\obj\Debug\TestSer.csproj.CoreCompileInputs.cache
+F:\Project\SocketTemplate\TestSer\obj\Debug\TestSer.exe
+F:\Project\SocketTemplate\TestSer\obj\Debug\TestSer.pdb

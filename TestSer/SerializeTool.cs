@@ -8,15 +8,10 @@ using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClientTemplate
+namespace TestSer
 {
     class SerializeTool
     {
-        /// <summary>
-        /// 把Obj序列化成字节数组
-        /// </summary>
-        /// <param name="obj"></param>
-        /// <returns></returns>
         public static byte[] GetArrByObj(object obj)
         {
             BinaryFormatter bf = new BinaryFormatter();
@@ -27,12 +22,6 @@ namespace ClientTemplate
             return s;
         }
 
-        /// <summary>
-        /// 把字节数组反序列化成泛型
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="arr"></param>
-        /// <returns></returns>
         public static T GetObjByArr<T>(byte[] arr) where T : class
         {
             IFormatter formatter = new BinaryFormatter();

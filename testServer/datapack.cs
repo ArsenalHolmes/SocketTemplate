@@ -10,11 +10,17 @@ namespace testServer
     {
         public override void ProcessData(byte[] msgArr)
         {
-            Dictionary<string, string> dic = new Dictionary<string, string>();
-            dic = ToolClass.GetObjByArr<Dictionary<string, string>>(msgArr);
-            foreach (var item in dic)
+            if (msgArr.Length>25)
             {
-                Console.WriteLine(item.Key+"    "+item.Value);
+                Dictionary<string, string> dic = ToolClass.GetObjByArr<Dictionary<string, string>>(msgArr);
+                foreach (var item in dic)
+                {
+                    Console.WriteLine(item.Key+"    "+item.Value);
+                }
+            }
+            else
+            {
+                Console.WriteLine(ToolClass.GetObjByArr<string>(msgArr));
             }
         }
     }

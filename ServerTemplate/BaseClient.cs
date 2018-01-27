@@ -10,11 +10,11 @@ namespace ServerTemplate
 {
     public abstract class BaseClient
     {
-        public ISocketEvent SocketEvent;
-        public BaseUnDataPack DataPack;
-        
-        public virtual void InitInterFace() { }
-        public abstract void InitDataPack();
+        public abstract BaseUnDataPack dataPack { get; }
+        public BaseUnDataPack DataPack { get; private set; }
+        public abstract ISocketEvent socketEvent { get; }
+        public ISocketEvent SocketEvent { get; private set; }
+
         public abstract void PrintMessage(string error);
 
         bool isKill = false;
@@ -24,8 +24,6 @@ namespace ServerTemplate
 
         public BaseClient(Socket client)
         {
-            InitInterFace();
-            InitDataPack();
             this.client = client;
             client.BeginReceive(msgArr, 0, 1024, SocketFlags.None, ReceiveAsyn, client);
         }

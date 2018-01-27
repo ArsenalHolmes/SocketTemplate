@@ -43,8 +43,15 @@ namespace ServerTemplate
 
         }
 
+        /// <summary>
+        /// 所有连接的列表
+        /// </summary>
         public List<BaseClient> clientList = new List<BaseClient>();
 
+        /// <summary>
+        /// 异步等待连接
+        /// </summary>
+        /// <param name="ar"></param>
         private void AcceptAsyn(IAsyncResult ar)
         {
             try
@@ -63,13 +70,22 @@ namespace ServerTemplate
             }
         }
 
+        /// <summary>
+        /// 客户端连接
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         public abstract BaseClient ClientConnect(Socket s);
 
+        /// <summary>
+        /// 心跳检测线程
+        /// </summary>
         private void HeartThread()
         {
             while (true)
             {
                 Thread.Sleep(HeartTime);
+                if (clientList.Count == 0) continue;
                 Console.WriteLine("发送心跳"+HeartTime);
                 List<BaseClient> temp = new List<BaseClient>();
                 foreach (var item in clientList)
