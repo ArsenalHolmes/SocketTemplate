@@ -11,7 +11,13 @@ namespace ClientTemplate
     /// </summary>
     public abstract class BaseUnDataPack
     {
-        ///心跳包的字节数组长度为25。可以屏蔽掉。
+        //心跳包的字节数组长度为25。可以屏蔽掉。
+        
+        /// <summary>
+        /// 是否由主线程调用解析消息的方法
+        /// 例如：U3D，必须由主线程调用，设置成true
+        /// </summary>
+        public abstract bool IsMainThread { get; }
 
         /// <summary>
         /// 存储消息字节数组列表
@@ -25,6 +31,11 @@ namespace ClientTemplate
         public virtual void ReceiveDataArr(byte[] msgArr)
         {
             msgList.AddRange(msgArr);//把字节数组填充到列表中
+            if (!IsMainThread) Update();
+        }
+
+        public virtual void Update()
+        {
             byte[] newArr = EncodingTool.DecodePacket(ref msgList);//如果长度够一条消息。把那条消息的完整字节返回
             if (newArr != null) ProcessData(newArr);//如果返回字节数组。调用解析函数
         }
